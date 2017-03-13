@@ -1,0 +1,161 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Sigrist:1978}
+M.~W. Sigrist, F.~K. Kneub\"{u}hl, Laser-generated stress waves in liquids, J.
+  Acoust. Soc. Am. 64~(6) (1978) 1652--1663.
+
+\bibitem{Scruby:1980}
+C.~B. Scruby, R.~Dewhurst, D.~A. Hutchins, S.~B. Palmer, Quantitative studies
+  of thermally generated elastic waves in laser-irradiated metals, J. Appl.
+  Phys. 51~(12) (1980) 6210--6216.
+
+\bibitem{Sigrist:1986}
+M.~W. Sigrist, {Laser generation of acoustic waves in liquids and gases}, J.
+  Appl. Phys. 60 (1986) R83--R122.
+
+\bibitem{Tam:1986}
+A.~C. Tam, Applications of photoacoustic sensing techniques, Rev. Mod. Phys. 58
+  (1986) 381--431.
+
+\bibitem{Kruger:1995}
+R.~A. Kruger, P.~Liu, Y.~Fang, C.~R. Appledorn, Photoacoustic ultrasound
+  (paus)—reconstruction tomography, Medical Physics 22 (1995) 1605--1609.
+
+\bibitem{Hutchins:1986}
+D.~A. Hutchins, Mechanisms of pulsed photoacoustic generation, Can. J. Phys.
+  64~(9) (1986) 1247--1264.
+
+\bibitem{Diebold:1990}
+G.~J. Diebold, M.~I. Khan, S.~M. Park, Photoacoustic signatures of particulate
+  matter: optical production of acoustic monopole radiation, Science 250~(4977)
+  (1990) 101--104.
+
+\bibitem{Diebold:1991}
+G.~J. Diebold, T.~Sun, M.~I. Khan, Photoacoustic monopole radiation in one,
+  two, and three dimensions, Phys. Rev. Lett. 67 (1991) 3384--3387.
+
+\bibitem{Blumenroether:2016}
+E.~Blumenr\"other, O.~Melchert, M.~Wollweber, B.~Roth, {Detection, numerical
+  simulation and approximate inversion of optoacoustic signals generated in
+  multi-layered PVA hydrogel based tissue phantoms}, Photoacoustics 4 (2016)
+  125--132.
+
+\bibitem{Melchert:2017}
+O.~Melchert, E.~Blumenr\"other, M.~Wollweber, B.~Roth, {Detection and numerical
+  simulation of optoacoustic near- and farfield signals observed in PVA
+  hydrogel phantoms}, (preprint) (2017).
+\newblock \href {http://arxiv.org/abs/1702.07603} {\path{arXiv:1702.07603}}.
+
+\bibitem{Santosa:1991}
+F.~Santosa, W.~W. Symes, {A Dispersive Effective Medium for Wave Propagation in
+  Periodic Composites}, SIAM J. Appl. Math. 51~(4) (1991) 984--1005.
+
+\bibitem{Fogarty:1999}
+T.~R. Fogarty, R.~J. LeVeque, High-resolution finite-volume methods for
+  acoustic waves in periodic and random media, The Journal of the Acoustical
+  Society of America 106~(1) (1999) 17--28.
+
+\bibitem{Landau:1975}
+L.~D. Landau, E.~M. Lifshitz, Elastizit\"{a}tstheorie (4th Ed.),
+  Akademie-Verlag (Berlin), 1975.
+
+\bibitem{Irgens:2008}
+F.~Irgens, Continuum mechanics, Springer Science \& Business Media, 2008.
+
+\bibitem{Szabo:2004}
+T.~L. Szabo, Diagnostic ultrasound imaging: inside out, Academic Press, 2004.
+
+\bibitem{Melchert_gitHub_1DFD:2017}
+A {\sc Python} implementation of our research code that might be used to
+  reproduce this paper's results can be found at
+  https://github.com/omelchert/1DFDLEM.git.
+
+\bibitem{Paltauf:2000}
+G.~Paltauf, H.~Schmidt-Kloiber, Pulsed optoacoustic characterization of layered
+  media, Journal of Applied Physics 88 (2000) 1624--1631.
+
+\bibitem{Welch:1984}
+A.~Welch, The thermal response of laser irradiated tissue, IEEE Journal of
+  Quantum Electronics 20~(12) (1984) 1471--1481.
+
+\bibitem{NumRec:1992}
+W.~Press, B.~Flannery, S.~Teukolsky, W.~Vetterling, Numerical Recipes in
+  FORTRAN 77, Cambridge University Press, 1992.
+
+\bibitem{Percival:1969}
+C.~M. Percival, J.~A. Cheney, {Thermally generated stress waves in a dispersive
+  elastic rod}, Experimental Mechanics 9~(2) (1969) 49--57.
+
+\bibitem{Ueberschlag:2001}
+P.~Ueberschlag, Pvdf piezoelectric polymer, Sensor Review 21~(2) (2001)
+  118--125.
+
+\bibitem{NunesDosSantos:2005}
+W.~Nunes~dos Santos, P.~Mummery, A.~Wallwork, Thermal diffusivity of polymers
+  by the laser flash technique, Polymer Testing 24~(5) (2005) 628 -- 634.
+
+\bibitem{Blumenroether:2017}
+E.~Blumenr\"other, O.~Melchert, M.~Wollweber, B.~Roth, (to be published)
+  (2017).
+
+\bibitem{Schoeffmann:1988}
+H.~Schoeffmann, H.~Schmidt¿Kloiber, E.~Reichel, Time-resolved investigations of
+  laser¿induced shock waves in water by use of polyvinylidenefluoride
+  hydrophones, J. Appl. Phys. 63 (1988) 46--51.
+
+\bibitem{Jaeger:2005}
+M.~Jaeger, J.~J. Niederhauser, M.~Hejazi, M.~Frenz, Diffraction-free acoustic
+  detection for optoacoustic depth profiling of tissue using an optically
+  transparent polyvinylidene fluoride pressure transducer operated in backward
+  and forward mode, Journal of Biomedical Optics 10~(2) (2005) 024035.
+
+\bibitem{LeVeque:1997}
+R.~J. LeVeque, Wave propagation algorithms for multidimensional hyperbolic
+  systems, Journal of Computational Physics 131~(2) (1997) 327--353.
+
+\bibitem{Berezovski:2006}
+A.~Berezovski, M.~Berezovski, J.~Engelbrecht, Numerical simulation of nonlinear
+  elastic wave propagation in piecewise homogeneous media, Materials Science
+  and Engineering: A 418~(1¿2) (2006) 364 -- 369.
+
+\bibitem{Ketcheson:2012}
+D.~I. Ketcheson, K.~T. Mandli, A.~J. Ahmadia, A.~Alghamdi, M.~{Quezada de
+  Luna}, M.~Parsani, M.~G. Knepley, M.~Emmett, {{PyClaw: Accessible,
+  Extensible, Scalable Tools for Wave Propagation Problems}}, SIAM Journal on
+  Scientific Computing 34~(4) (2012) C210--C231.
+
+\bibitem{Clawpack:2017}
+{Clawpack Development Team}, \href{http://www.clawpack.org}{Clawpack software},
+  version 5.4.0 (2017).
+\newblock \href {http://dx.doi.org/10.5281/zenodo.262111}
+  {\path{doi:10.5281/zenodo.262111}}.
+\newline\urlprefix\url{http://www.clawpack.org}
+
+\bibitem{Barnes:2010}
+N.~Barnes, Publish your computer code: it is good enough, Nature 467 (2010)
+  753.
+
+\bibitem{Ince:2012}
+D.~C. Ince, L.~Hatton, J.~Graham-Cumming, {The case for open computer
+  programs}, Nature 482 (2012) 485--488.
+
+\bibitem{Sandve:2013}
+G.~K. Sandve, A.~Nekrutenko, J.~Taylor, E.~Hovig, P.~E. Bourne, Ten simple
+  rules for reproducible computational research, PLoS Computational Biology 9
+  (2013) e1003285.
+
+\bibitem{Oliphant:2007}
+T.~E. Oliphant, {Python for Scientific Computing}, Computing in Science \&
+  Engineering 9~(3) (2007) 10--20.
+
+\bibitem{Jones:2001}
+E.~Jones, T.~E. Oliphant, P.~Peterson, {many others}, {SciPy}: Open source
+  scientific tools for {Python}, {http://www.scipy.org/}, [Online; accessed
+  2017-03-06] (2001).
+
+\end{thebibliography}

@@ -1,0 +1,29 @@
+set terminal postscript enhanced eps size 9.5cm,4cm color lw 1 16 font "Times-Roman"
+set output './FIGS/transducerSignal_backinglayer.eps'
+
+LW=1.5
+set style line 1 lw LW lc rgb 'blue'
+set style line 2 lw LW lc rgb 'dark-grey' dashtype 2 
+
+set key samplen 1.0
+
+set xzeroaxis
+set tics nomirror
+
+set xr [0.2:0.6]
+set xtics (0.2,0.3,0.4,0.5,'' 0.6)
+set label 1 '{/Times-Italic U(t)} (arb. units)' rotate by 90 at screen 0.025,0.5 center 
+set label 2 '{/Times-Italic t} ({/Symbol m}s)' at screen 0.98,0.077 right 
+
+set yr [-0.0015:0.002]
+set ytics ('' -0.001,'' -0.0005,'' 0.,'' 0.0005,'' 0.001,'' 0.0015,'' 0.002)
+
+set lmargin at screen 0.065 
+set rmargin at screen 0.98
+
+p '../transducerSignal_DC1.dat' u 1:2 w l ls 1 t 'DC-1'\
+, '../transducerSignal_DC2.dat' u 1:2 w l ls 2 t 'DC-2'
+
+
+
+

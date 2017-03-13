@@ -1,0 +1,59 @@
+set terminal postscript enhanced eps size 9.5cm,6cm color lw 1 16 font "Times-Roman"
+set output './FIGS/transducerSignal_TvsE.eps'
+
+set label 106 "{/Times-Roman=100 DRAFT}" at screen 0.5,0.5 center rotate by 25 tc "grey" front 
+
+LW=1.
+set style line 1 lw LW lc rgb 'blue'
+set style line 2 lw LW lc rgb 'black' dashtype 2 
+#set style line 3 lw LW lc rgb 'green' 
+#set style line 4 lt 1 lc rgb '#472c7a' # purple
+#set style line  4 lt 1 lc rgb '#27ad81' dashtype 2 
+
+
+
+set tics nomirror
+set lmargin at screen 0.11 
+set rmargin at screen 0.98
+set xzeroaxis
+set key samplen 1. reverse Left
+
+set label 111 '(a)' at screen 0.025,0.97 center 
+set label 112 '(b)' at screen 0.025,0.52 center 
+
+set xr [0.:2.]
+set xtics 0.,0.5,1.8 
+
+set yr [-0.6:1.1]
+set ytics -1.2,0.4,1.2
+set format y ''
+
+set multiplot
+
+set label 11 'Simulation' rotate by 90 at screen 0.06,0.75 center 
+set tmargin at screen 0.98
+set bmargin at screen 0.53
+set format x ''
+p '../transducerSignal_inkOnGlass.dat' u 1:2 w l ls 1 t '{/Times-Italic U}'\
+, '../transducerSignal_inkOnGlass.dat' u 1:3 w l ls 2 t '{/Times-Italic U_{/Times-Roman=10 LP}}'\
+
+
+unset label 11
+unset label 111 
+unset label 112
+unset label 113
+
+set label 21 'Experiment' rotate by 90 at screen 0.06,0.33 center
+set tmargin at screen 0.53
+set bmargin at screen 0.08
+set format x '%2.1f'
+fx1(x) = x*10**6 - 1.25
+fx2(x) = x*10**6 - 1.135
+fx(x) = x*10**6
+fy1(y) = y/0.018
+set label 22 '{/Times-Italic t} ({/Symbol m}s)' at screen 0.98,0.035 right 
+p '../../expData/InkOnGlass.dat' every 8 u (fx1($1)):(fy1($3)) w l ls 1 t '{/Times-Italic U_{/Times-Roman=10 0}}'\
+, '../../expData/InkOnGlass.dat' every 8 u (fx2($1)):($2) w l ls 2 t '{/Times-Italic U_{/Times-Roman=10 E}}'\
+
+
+unset multiplot

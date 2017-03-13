@@ -1,0 +1,61 @@
+set terminal postscript enhanced eps size 9.5cm,8.0cm color lw 1 16 font "Times-Roman"
+set output './FIGS/transducerSignal_backinglayer.eps'
+
+LW=1.5
+set style line 1 lw LW lc rgb 'blue'
+set style line 2 lw LW lc rgb 'black' dashtype 2 
+
+
+set tics nomirror
+set lmargin at screen 0.11 
+set rmargin at screen 0.98
+set xzeroaxis
+set key samplen 1. reverse Left
+
+set label 111 '(a)' at screen 0.025,0.97 center 
+set label 112 '(b)' at screen 0.025,0.67 center 
+set label 113 '(c)' at screen 0.025,0.37 center 
+
+set xr [0.2:0.7]
+set xtics (0.,0.1,0.2,0.3,0.4,0.5,0.6)
+
+set yr [-1.2:1.2]
+set ytics -1.2,0.4,1.2
+set format y ''
+
+set multiplot
+
+set label 11 '{/Times-Italic U(t)} (arb. units)' rotate by 90 at screen 0.06,0.98 right 
+set tmargin at screen 0.98
+set bmargin at screen 0.68
+set format x ''
+
+
+p '../cmpsignals_dc1_w0.150.dat' u 1:2 w l ls 1 t '{/Times-Italic U(t)}'\
+, '../cmpsignals_dc1_w0.150.dat' u 1:3 w l ls 2 dashtype 2 t '{/Times-Italic U_{/Times-Roman=10 S}(t)}'\
+
+
+unset label 11
+unset label 111 
+unset label 112
+unset label 113
+unset key
+
+set label 21 '{/Times-Italic U(t)} (arb. units)' rotate by 90 at screen 0.06,0.68 right 
+set tmargin at screen 0.68
+set bmargin at screen 0.38
+p '../cmpsignals_dc1_w0.050.dat' u 1:2 w l ls 1 t ''\
+, '../cmpsignals_dc1_w0.050.dat' u 1:3 w l ls 2 dashtype 2 t 'S'\
+
+unset label 21
+
+unset key
+set label 31 '{/Times-Italic U(t)} (arb. units)' rotate by 90 at screen 0.06,0.38 right 
+set tmargin at screen 0.38
+set bmargin at screen 0.08
+set format x '%2.1f'
+set label 32 '{/Times-Italic t} ({/Symbol m}s)' at screen 0.98,0.03 right 
+p '../cmpsignals_dc1_w0.005.dat' u 1:2 w l ls 1 t ''\
+, '../cmpsignals_dc1_w0.005.dat' u 1:3 w l ls 2 dashtype 2 t 'S'\
+
+unset multiplot
