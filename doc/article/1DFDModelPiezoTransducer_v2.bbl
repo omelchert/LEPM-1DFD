@@ -23,8 +23,8 @@ A.~C. Tam, Applications of photoacoustic sensing techniques, Rev. Mod. Phys. 58
   (1986) 381--431.
 
 \bibitem{Kruger:1995}
-R.~A. Kruger, P.~Liu, Y.~Fang, C.~R. Appledorn, Photoacoustic ultrasound
-  (paus)—reconstruction tomography, Medical Physics 22 (1995) 1605--1609.
+R.~A. Kruger, P.~Liu, Y.~Fang, C.~R. Appledorn, {Photoacoustic ultrasound
+  (PAUS)-Reconstruction tomography}, Medical Physics 22 (1995) 1605--1609.
 
 \bibitem{Hutchins:1986}
 D.~A. Hutchins, Mechanisms of pulsed photoacoustic generation, Can. J. Phys.
@@ -46,10 +46,12 @@ E.~Blumenr\"other, O.~Melchert, M.~Wollweber, B.~Roth, {Detection, numerical
   125--132.
 
 \bibitem{Melchert:2017}
-O.~Melchert, E.~Blumenr\"other, M.~Wollweber, B.~Roth, {Detection and numerical
+O.~Melchert, E.~Blumenr\"other, M.~Wollweber, B.~Roth,
+  \href{{\url{https://arxiv.org/abs/1702.07603}}}{{Detection and numerical
   simulation of optoacoustic near- and farfield signals observed in PVA
-  hydrogel phantoms}, (preprint) (2017).
+  hydrogel phantoms}}, (preprint) (2017).
 \newblock \href {http://arxiv.org/abs/1702.07603} {\path{arXiv:1702.07603}}.
+\newline\urlprefix\url{{\url{https://arxiv.org/abs/1702.07603}}}
 
 \bibitem{Santosa:1991}
 F.~Santosa, W.~W. Symes, {A Dispersive Effective Medium for Wave Propagation in
@@ -71,9 +73,11 @@ F.~Irgens, Continuum mechanics, Springer Science \& Business Media, 2008.
 T.~L. Szabo, Diagnostic ultrasound imaging: inside out, Academic Press, 2004.
 
 \bibitem{Melchert_gitHub_1DFD:2017}
-A {\sc Python} implementation of our research code that might be used to
-  reproduce this paper's results can be found at
-  https://github.com/omelchert/1DFDLEM.git.
+\href{{\url{https://github.com/omelchert/lepm-1dfd.git}}}{{LEPM-1DFD: a
+  one-dimensional finite-difference (1DFD) code for piecewise homogeneous,
+  linear elastic and piezoelectric media (LEPM)}}, [Online; accessed
+  2017-03-13] (2017).
+\newline\urlprefix\url{{\url{https://github.com/omelchert/lepm-1dfd.git}}}
 
 \bibitem{Paltauf:2000}
 G.~Paltauf, H.~Schmidt-Kloiber, Pulsed optoacoustic characterization of layered
@@ -92,7 +96,7 @@ C.~M. Percival, J.~A. Cheney, {Thermally generated stress waves in a dispersive
   elastic rod}, Experimental Mechanics 9~(2) (1969) 49--57.
 
 \bibitem{Ueberschlag:2001}
-P.~Ueberschlag, Pvdf piezoelectric polymer, Sensor Review 21~(2) (2001)
+P.~Ueberschlag, {PVDF piezoelectric polymer}, Sensor Review 21~(2) (2001)
   118--125.
 
 \bibitem{NunesDosSantos:2005}
